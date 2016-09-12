@@ -25,8 +25,8 @@ function setupEmailing(){
     transport = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'mr0.0nerd@gmail.com',
-        pass: '0724022479'
+        user: '',
+        pass: ''
       }
     });
   /*var transport = nodemailer.createTransport(smtpTransport({
