@@ -2,9 +2,9 @@
 
 **A desktop app for creating and printing simple invoices quickly **
 
-[Image](/images/InvoiceTOP v1.0_019.png)
+![Image](/images/InvoiceTOP v1.0_019.png)
 
-[Image](/images/InvoiceTOP v1.0_021.png)
+![Image](/images/InvoiceTOP v1.0_021.png)
 
 
 This is a desktop application which you can use to visually create an invoice ,export it to pdf and print or email it to your clients directly
