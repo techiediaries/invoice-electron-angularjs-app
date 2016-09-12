@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" lang="en" xml:lang="en">
+<head>
+    <title>InvoiceTOP v1.0</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/splash.css" />
+</head>
+<style>
+    .klass-weBlog-topbar
+    {
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index:10;
+    height:200px;
+    width:100%;
+    background:rgba(0,0,0,.7);
+    color: #fff;
+    font-size:15px;
+    padding:5px;
+    font-family:Helvetica;
+    };
+    .content-right{
+    background:rgba(255,255,255,.3);font-family: 'Titan One', cursive;
+    }
+    .less
+    {
+        word-wrap: break-word;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .more
+    {
+        white-space: normal;
+    }
+    .content-item-body
+    {
+         -moz-user-select: text;
+         -khtml-user-select: text;
+         -webkit-user-select: text;
+         -ms-user-select: text;
+         user-select: text;
+    }
+    .content-item-body::selection { color: blue;background:white; }
+    #editor::selection { color: blue; background:black;}
+
+</style>
+<body id="weblog" style="background:rgba(0,0,0,.9);color:white;font-family: 'Titan One',cursive;overflow:auto;">
+    <div class="container" style="width:100%;height:100%;z-index:999;position:fixed;top:0px;left:0px;background:black;">
+
+        <i class="fa fa-pencil" style="font-size:150px;padding-left:40px;padding-top:100px;margin-bottom:0px; ">
+
+            <h1 class="jumper" >InvoiceTop</h1>
+            <p style="margin:0px;font-size:12px;font-family:'Titan One',cursive;">Version 1.0 by <a href="http://www.">bouchefra.com</a>
+            .For more free apps visit <a href="http://apps.bouchefra.com">apps.bouchefra.com</a> 
+            </br>
+            <button style="margin:5px;width: 300px;background: #000;" id="btn-start-invoicing" class="btn btn-info">Start Invoicing...</button>
+            </p>
+            
+            
+        </i>
+
+    </div>
+
+    <script type="text/javascript">
+        require('./js/renderer.js');
+    </script>
+
+</body>
+
+</html>

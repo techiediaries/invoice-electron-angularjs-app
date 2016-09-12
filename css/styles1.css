@@ -1,0 +1,112 @@
+body {
+
+	 height: 11in; 
+
+	 box-sizing: border-box; 
+	 
+	 margin-top: 5px;
+	 margin-left: 5px;
+
+	 padding: 0.5in; 
+	 width: 8.5in; 
+
+	 border-radius: 1px; 
+	 
+	 box-shadow: 0 0 4in -0.25in rgba(1, 0, 255, 0.3);
+}
+.btn
+{
+	border-width: 1px;
+	display: block;
+	font-size: .8rem;
+	padding: 0.25em 0.5em;	
+	float: left;
+	text-align: center;
+	width: 0.6em;
+	background: #9AF;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	background-image: -moz-linear-gradient(#00ADEE 5%, #0078A5 100%);
+	background-image: -webkit-linear-gradient(#00ADEE 5%, #0078A5 100%);
+	border-radius: 0.5em;
+	border-color: #0076A3;
+	color: #FFF;
+	cursor: pointer;
+	font-weight: bold;
+	text-shadow: 0 -1px 2px rgba(0,0,0,0.333);
+
+}
+
+.btn-add {
+	 margin: -2.5em 0 0;
+}
+
+.btn-remove { margin-right: 10px; }
+
+
+/* content editable */
+
+#editable {
+
+	border-radius: 1px; 
+	min-width: 1em; 
+	cursor: pointer;
+	outline: 1; 
+}
+#editable:hover,#editable:focus
+{
+	box-shadow: 0 0 0.1em 0.9em #ccc;
+}
+
+h1 {
+	
+	font-size: 25px; 
+ 	text-align: center;
+  	text-transform: uppercase; 
+}
+
+table { 
+
+	font-size: 75%; 
+	table-layout: fixed; 
+	width: 100%;
+	 
+}
+
+th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+th {  border:1px solid #00f; }
+
+
+/* header */
+
+#header { margin: 0 0 3em; }
+#header:after { clear: both; content: ""; display: table; }
+
+#header address { float: left;}
+
+#header address p { margin: 0 0 0.25em; }
+#header span, header img { display: block; float: right; }
+#header span { margin: 0 0 1em 1em; max-height: 25%; max-width: 60%; position: relative; }
+#header img { max-height: 100%; max-width: 100%; }
+#header input { cursor: pointer; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; height: 100%; left: 0; opacity: 0; position: absolute; top: 0; width: 100%; }
+
+
+
+#middle, #middle address, table.meta, table.inventory { margin: 0 0 3em; }
+#middle:after { clear: both; content: ""; display: table; }
+#middle h1 { clip: rect(0 0 0 0); position: absolute; }
+
+#middle address { float: left; font-size: 125%; font-weight: bold; }
+
+/* table meta & balance */
+
+table.meta, table.balance { float: right; width: 36%; }
+table.meta:after, table.balance:after { clear: both; content: ""; display: table; }
+
+
+@media print {
+	* { -webkit-print-color-adjust: exact; }
+	html { background: none; padding: 0; }
+	body { box-shadow: none; margin: 0; }
+	span:empty { display: none; }
+	.btn-add, .btn-remove { display: none; }
+}
