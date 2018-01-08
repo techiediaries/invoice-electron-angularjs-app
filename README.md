@@ -15,7 +15,7 @@ This is a desktop application which you can use to visually create an invoice ,e
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-Learn more about how to work with this app [here](http://www.techiediaries.com/building-an-invoice-app-for-desktop-with-javascript-angularjs-and-electron/ )
+
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
 
